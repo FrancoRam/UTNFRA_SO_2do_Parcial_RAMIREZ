@@ -1,0 +1,217 @@
+    1  vagrant halt
+    2  exit
+    3  lsblk
+    4  pwd
+    5  ls -l
+    6  sudo fdisk -l
+    7  pwd
+    8  sudo mkdir repogit
+    9  ls
+   10  cd repogit/
+   11  sudo git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+   12  ls
+   13  cd UTN-FRA_SO_Examenes/
+   14  ls
+   15  cd 202406
+   16  ls
+   17  ./script_Precondicion.sh
+   18  cat script_Precondicion.sh
+   19  source ~/.bashrc
+   20  cd
+   21  pwd
+   22  cd ..
+   23  ls
+   24  cd vagrant/
+   25  ls
+   26  cd RTA_Examen_20241117/
+   27  ls
+   28  cd ..
+   29  ls
+   30  cd RTA_Examen_20241117/
+   31  echo "# UTNFRA_SO_2do_Parcial_RAMIREZ" >> README.md
+   32  git init
+   33  git add README.md
+   34  git commit -m "first commit"
+   35  git branch -M main
+   36  git remote add origin https://github.com/FrancoRam/UTNFRA_SO_2do_Parcial_RAMIREZ.git
+   37  git push -u origin main
+   38  git config --global user.name "FrancoRam"
+   39  git config --global user.email "franconramirez1@gmail.com"
+   40  git config --list
+   41  git add .
+   42  git commit -m "Subida inicial del parcial"
+   43  git push -u origin main
+   44  ssh-keygen -t ed25519 -C "franconramirez1@gmail.com"
+   45  cat ~/.ssh/id_ed25519.pub
+   46  git remote set-url origin git@github.com:FrancoRam/UTNFRA_SO_2do_Parcial_RAMIREZ.git
+   47  ssh -T git@github.com
+   48  git status
+   49  git push -u origin main
+   50  ls
+   51  sudo fdisk -l
+   52  CD ..
+   53  cd ..
+   54  ls
+   55  cd repogit/
+   56  ls
+   57  git clone https://github.com/FrancoRam/UTNFRA_SO_2do_Parcial_RAMIREZ.git
+   58  sudo git clone https://github.com/FrancoRam/UTNFRA_SO_2do_Parcial_RAMIREZ.git
+   59  ls
+   60  cd UTNFRA_SO_2do_Parcial_RAMIREZ/
+   61  ls
+   62  git status
+   63  cd ..
+   64  rm -r UTNFRA_SO_2do_Parcial_RAMIREZ/
+   65  ls
+   66  sudo rm UTNFRA_SO_2do_Parcial_RAMIREZ/
+   67  ls
+   68  rm -rf UTNFRA_SO_2do_Parcial_RAMIREZ/
+   69  sudo rm -rf UTNFRA_SO_2do_Parcial_RAMIREZ/
+   70  ls
+   71  clear
+   72  ls
+   73  sudo git clone https://github.com/FrancoRam/UTNFRA_SO_2do_Parcial_RAMIREZ.git
+   74  ls
+   75  echo "# UTNFRA_SO_2do_Parcial_RAMIREZ" >> README.md
+   76  git init
+   77  git add README.md
+   78  git commit -m "first commit"
+   79  git branch -M main
+   80  git remote add origin https://github.com/FrancoRam/UTNFRA_SO_2do_Parcial_RAMIREZ.git
+   81  git push -u origin main
+   82  cd UTNFRA_SO_2do_Parcial_RAMIREZ/
+   83  ls
+   84  echo "# UTNFRA_SO_2do_Parcial_RAMIREZ" >> README.md
+   85  git init
+   86  git add README.md
+   87  git commit -m "first commit"
+   88  git branch -M main
+   89  git remote add origin https://github.com/FrancoRam/UTNFRA_SO_2do_Parcial_RAMIREZ.git
+   90  git push -u origin main
+   91  ssh -T git@github.com
+   92  git config --global --add safe.directory /home/vagrant/repogit/UTNFRA_SO_2do_Parcial_RAMIREZ
+   93  lss -la
+   94  ls -la
+   95  sudo chmod -R u+w /home/vagrant/repogit/UTNFRA_SO_2do_Parcial_RAMIREZ
+   96  ls -la
+   97  ls -ld /home/vagrant/repogit/UTNFRA_SO_2do_Parcial_RAMIREZ
+   98  git status
+   99  echo "# UTNFRA_SO_2do_Parcial_RAMIREZ" >> README.md
+  100  git init
+  101  git add README.md
+  102  git commit -m "first commit"
+  103  git branch -M main
+  104  git remote add origin https://github.com/FrancoRam/UTNFRA_SO_2do_Parcial_RAMIREZ.git
+  105  git push -u origin main
+  106  sudo chown -R vagrant:vagrant /home/vagrant/repogit/UTNFRA_SO_2do_Parcial_RAMIREZ
+  107  echo "# UTNFRA_SO_2do_Parcial_RAMIREZ" >> README.md
+  108  git init
+  109  git add README.md
+  110  git commit -m "first commit"
+  111  git branch -M main
+  112  git remote add origin https://github.com/FrancoRam/UTNFRA_SO_2do_Parcial_RAMIREZ.git
+  113  git push -u origin main
+  114  ssh-add -l
+  115  eval "$(ssh-agent -s)"
+  116  ssh-add ~/.ssh/id_ed25519
+  117  ssh-add -l
+  118  ssh -T git@github.com
+  119  git remote set-url origin git@github.com:FrancoRam/UTNFRA_SO_2do_Parcial_RAMIREZ.git
+  120  git push -u origin main
+  121  cp -r /home/vagrant/RTA_Examen_20241117/ .
+  122  ls
+  123  git status
+  124  git add .
+  125  git status
+  126  git commit -m "segundo commit"
+  127  git push origin master
+  128  git push
+  129  git rm --cached RTA_Examen_20241117
+  130  git add RTA_Examen_20241117
+  131  git commit -m "Agregar directorio sin submódulo"
+  132  git push
+  133  cd ..
+  134  ls
+  135  cd ..
+  136  ls
+  137  cd RTA_Examen_20241117/
+  138  ls -la
+  139  rm -rf .git/
+  140  ls -la
+  141  cd 
+  142  cd repogit/UTNFRA_SO_2do_Parcial_RAMIREZ/
+  143  ls
+  144  git status
+  145  git push
+  146  git add .
+  147  git commit "commiteado"
+  148  git commit -m"commiteado"
+  149  git push
+  150  cp -r /home/vagrant/RTA_Examen_20241117/ .
+  151  ls
+  152  cd RTA_Examen_20241117/
+  153  ls
+  154  nano Punto_A.sh
+  155  git status
+  156  git add .
+  157  git commit -m"commit"
+  158  git push
+  159  git push --force origin main
+  160  ls
+  161  cd ..
+  162  ls
+  163  git status
+  164  git add .
+  165  git status
+  166  git commit -m"commiteado"
+  167  git push origin main
+  168  git push --force origin main
+  169  rm -r RTA_Examen_20241117/
+  170  ls
+  171  cd /home/vagrant/RTA_Examen_20241117/
+  172  ls -la
+  173  cd /home/vagrant/repogit/UTNFRA_SO_2do_Parcial_RAMIREZ/
+  174  rsync -av --exclude='.git' /home/vagrant/RTA_Examen_20241117/ /home/vagrant/repogit/UTNFRA_SO_2do_Parcial_RAMIREZ/
+  175  ls
+  176  ls -la
+  177  rm *.sh
+  178  ls
+  179  cd /home/vagrant/RTA_Examen_20241117/
+  180  ls -la
+  181  cd /home/vagrant/repogit/
+  182  ls
+  183  cd UTNFRA_SO_2do_Parcial_RAMIREZ/
+  184  sudo cp -r /home/vagrant/RTA_Examen_20241117/ .
+  185  ls
+  186  cd RTA_Examen_20241117/
+  187  ls -la
+  188  git status
+  189  cd ..
+  190  git status
+  191  cd RTA_Examen_20241117/
+  192  nano Punto_B.sh 
+  193  ls -la
+  194  sudo nano Punto_B.sh 
+  195  cd ..
+  196  ls
+  197  git status
+  198  cd /home/vagrant/repogit/UTNFRA_SO_2do_Parcial_RAMIREZ/
+  199  ls -la
+  200  git add RTA_Examen_20241117/
+  201  git commit -m "Agregada la carpeta RTA_Examen_20241117"
+  202  git push origin main
+  203  cat .gitignore
+  204  ls -l RTA_Examen_20241117/
+  205  git add -A
+  206  git status
+  207  git add RTA_Examen_20241117/*
+  208  git rm --cached RTA_Examen_20241117
+  209  ls -la
+  210  git add RTA_Examen_20241117/
+  211  git commit -m "Agregada la carpeta RTA_Examen_20241117 como un directorio normal"
+  212  git push origin main
+  213  ls
+  214  echo "--------------------------------------------------"
+  215  cat history
+  216  history
+  217  history >> historial.txt

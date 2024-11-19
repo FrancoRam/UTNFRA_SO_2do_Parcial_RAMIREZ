@@ -1,0 +1,8 @@
+---
+# vars file for 2do_parcial
+nombre: Franco
+apellido: Ramirez
+division: 311
+ip: "{{ ansible_default_ipv4.address }}"
+distribucion: "{{ ansible_distribution }}"
+cores: "{{ ansible_processor_cores }}"
